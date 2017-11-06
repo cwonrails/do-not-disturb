@@ -13,7 +13,7 @@
     "do-not-disturb": "cli.js"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "test": "xo && ava"
@@ -31,12 +31,12 @@
     "notification"
   ],
   "dependencies": {
-    "meow": "^3.6.0",
+    "meow": "^3.7.0",
     "run-applescript": "^3.0.0"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.4.0",
+    "execa": "^0.8.0",
     "xo": "*"
   },
   "xo": {
